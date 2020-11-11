@@ -1,0 +1,40 @@
+.container {
+    background-color: khaki;
+    width: 700px;
+    height: 250px;
+}
+h1 {
+    font-size: px;
+    margin: 0px 10px;
+}
+
+.left {
+    float: left;
+    width: 300px;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.left table {
+    border: khaki solid 1px ;
+    height: 500 px;
+}
+
+.submitarea {
+    text-align: right;
+    height: 4.5rem;
+    vertical-align: bottom;
+}
+.right {
+    float: left;
+    width: 300px;
+}
+
+.right textarea {
+    width: 300px;
+    height: 150px;
+}
+
+.submit_btn {
+    float: right;
+}
