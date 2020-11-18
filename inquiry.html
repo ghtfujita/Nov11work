@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <div class="container">
         <h1>お問い合わせ</h1>
         <form>
@@ -34,11 +35,15 @@
                 <div class="right">
                     <table>
                         <tr>
-                            <td><textarea>お問い合わせ内容を入力してください。</textarea></extarea></td>
+                            <td><textarea id="textarea">お問い合わせ内容を入力してください</textarea></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="クリア" id="clear_btn"></td>
                         </tr>
                     </table>
                 </div>
         </form>
     </div>
+    <script src="clear.js"></script>
     </body>
 </html>
